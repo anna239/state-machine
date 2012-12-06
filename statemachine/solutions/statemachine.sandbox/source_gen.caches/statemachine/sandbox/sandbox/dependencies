@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="statemachine.sandbox.sandbox.Enu" file="Enu.java" />
+  <dependency className="statemachine.sandbox.sandbox.Ma" file="Ma.java">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
   <dependency className="statemachine.sandbox.sandbox.Main" file="Main.java">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.String" />

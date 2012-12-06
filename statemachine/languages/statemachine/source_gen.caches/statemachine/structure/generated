@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="do7d9we3pgy1ah6yx7q409vtrocfkfl">
+<dependencies version="2" modelHash="-3p7rnowd7mkekaltkv6d4plorsf5n36">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -19,6 +19,7 @@
     <dep root="3047195635420720844" />
     <dep root="3047195635420727304" />
     <dep root="6463807888000008983" />
+    <dep root="6463807888000039002" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -34,7 +35,7 @@
   <source id="2953633839503710142" name="StateMachine" hash="4qi0tkwjuxh2m4ui5k6z2y0obeiqvnz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2953633839503872521" name="State" hash="4wcmwwky5k2pev9v8e2rpjb51ossycx">
+  <source id="2953633839503872521" name="State" hash="-66sqyc2e3k84c9tqbiinkq0x8wfip62">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="2953633839503922789" name="Transition" hash="easdk02a2yaynotqswi268c3g693i0p">
@@ -56,6 +57,9 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="6463807888000008983" name="IsInStateOperation" hash="biad8aoccmjknrfaogqqfy797v6yeac">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="6463807888000039002" name="AddNextTokenOperation" hash="-14vq9kyd422nhhcynug9hpk7ga8pmcc">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

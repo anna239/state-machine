@@ -14,6 +14,7 @@ public class Main {
         return (it != null && it.length() > 0);
       }
     });
+    Sequence.fromIterable(s).isEmpty();
     new String();
 
   }

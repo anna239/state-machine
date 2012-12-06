@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-14l3vue134g7uxr39pmtz0yrndpktfe">
+<dependencies version="2" modelHash="blv9cuiplabih36tkmavk48omkphdm1">
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <dep model="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" hash="-bifmuytyxbyixfy1qf4mb3h6i5ptuv9" />
+  <dep model="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" hash="-cdt4eydtb3qgtudn9zuujahczhdyh5n" />
   <common>
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />

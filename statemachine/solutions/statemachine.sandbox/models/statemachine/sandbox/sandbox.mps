@@ -20,8 +20,8 @@
     <node type="tpee.EnumClass" typeId="tpee.1083245097125" id="2953633839503872510">
       <property name="name" nameId="tpck.1169194664001" value="Enu" />
     </node>
-    <node type="cj01.StateMachine" typeId="cj01.2953633839503710142" id="6463807887999990698">
-      <property name="name" nameId="tpck.1169194664001" value="Machine" />
+    <node type="cj01.StateMachine" typeId="cj01.2953633839503710142" id="6463807888000046695">
+      <property name="name" nameId="tpck.1169194664001" value="Ma" />
     </node>
   </roots>
   <root id="2953633839503720477">
@@ -98,29 +98,6 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6463807887999993593">
-          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6463807887999993594">
-            <property name="name" nameId="tpck.1169194664001" value="machine" />
-            <node role="type" roleId="tpee.5680397130376446158" type="cj01.StateMachineType" typeId="cj01.2953633839503960890" id="6463807887999993595">
-              <link role="stateMachine" roleId="cj01.2953633839503960915" targetNodeId="6463807887999990698" resolveInfo="Machine" />
-            </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6463807887999993596">
-              <node role="creator" roleId="tpee.1145553007750" type="cj01.StateMachineCreator" typeId="cj01.2953633839503988300" id="6463807887999993597">
-                <link role="stateMchine" roleId="cj01.2953633839503988302" targetNodeId="6463807887999990698" resolveInfo="Machine" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6463807888000008961">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6463807888000008977">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="6463807888000008962">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6463807887999993594" resolveInfo="machine" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="cj01.IsInStateOperation" typeId="cj01.6463807888000008983" id="6463807888000032397">
-              <link role="state" roleId="cj01.6463807888000016327" targetNodeId="6463807887999990699" resolveInfo="first" />
-            </node>
-          </node>
-        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="2953633839503983598" />
       </node>
     </node>
@@ -141,19 +118,19 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2953633839503872515" />
     </node>
   </root>
-  <root id="6463807887999990698">
-    <node role="type" roleId="cj01.2953633839503944004" type="tpee.StringType" typeId="tpee.1225271177708" id="6463807887999990701" />
-    <node role="state" roleId="cj01.2953633839503922786" type="cj01.State" typeId="cj01.2953633839503872521" id="6463807887999990699">
-      <property name="name" nameId="tpck.1169194664001" value="first" />
-      <node role="transition" roleId="cj01.2953633839503934595" type="cj01.Transition" typeId="cj01.2953633839503922789" id="6463807887999994142">
-        <link role="transitToState" roleId="cj01.2953633839503935196" targetNodeId="6463807887999990699" resolveInfo="first" />
-        <node role="expected" roleId="cj01.2953633839503934585" type="cj01.ClojureTransitionCondition" typeId="cj01.3047195635420727304" id="6463807888000002085">
-          <node role="expression" roleId="cj01.6463807887999994152" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="6463807888000002087">
-            <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="6463807888000002088" />
+  <root id="6463807888000046695">
+    <node role="initialState" roleId="cj01.2953633839503922787" type="cj01.State" typeId="cj01.2953633839503872521" id="6463807888000046696">
+      <property name="name" nameId="tpck.1169194664001" value="f1" />
+      <node role="transition" roleId="cj01.2953633839503934595" type="cj01.Transition" typeId="cj01.2953633839503922789" id="6463807888000046699">
+        <link role="transitToState" roleId="cj01.2953633839503935196" targetNodeId="6463807888000046696" resolveInfo="f1" />
+        <node role="expected" roleId="cj01.2953633839503934585" type="cj01.EqualsTransitionCondition" typeId="cj01.3047195635420720844" id="6463807888000046703">
+          <node role="expression" roleId="cj01.6463807887999994148" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6463807888000046705">
+            <property name="value" nameId="tpee.1070475926801" value=" " />
           </node>
         </node>
       </node>
     </node>
+    <node role="type" roleId="cj01.2953633839503944004" type="tpee.StringType" typeId="tpee.1225271177708" id="6463807888000046698" />
   </root>
 </model>
 
