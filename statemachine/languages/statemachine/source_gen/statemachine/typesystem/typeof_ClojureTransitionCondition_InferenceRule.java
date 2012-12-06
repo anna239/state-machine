@@ -21,7 +21,7 @@ public class typeof_ClojureTransitionCondition_InferenceRule extends AbstractInf
   }
 
   public void applyRule(final SNode condition, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    SNode stateMachine = SNodeOperations.as(SNodeOperations.getParent(SNodeOperations.getParent(SNodeOperations.getParent(condition))), "statemachine.structure.StateMachineDeclaration");
+    SNode stateMachine = SNodeOperations.as(SNodeOperations.getParent(SNodeOperations.getParent(SNodeOperations.getParent(condition))), "statemachine.structure.StateMachine");
     System.out.println(stateMachine);
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(condition, "expression", true);

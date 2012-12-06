@@ -6,11 +6,11 @@
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
+  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
-  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" implicit="yes" />
-  <import index="cj01" modelUID="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" version="0" implicit="yes" />
+  <import index="cj01" modelUID="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" version="1" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <roots>
@@ -20,8 +20,8 @@
     <node type="tpee.EnumClass" typeId="tpee.1083245097125" id="2953633839503872510">
       <property name="name" nameId="tpck.1169194664001" value="Enu" />
     </node>
-    <node type="cj01.StateMachineDeclaration" typeId="cj01.2953633839503710142" id="3047195635420727295">
-      <property name="name" nameId="tpck.1169194664001" value="MM" />
+    <node type="cj01.StateMachine" typeId="cj01.2953633839503710142" id="6463807887999990698">
+      <property name="name" nameId="tpck.1169194664001" value="Machine" />
     </node>
   </roots>
   <root id="2953633839503720477">
@@ -83,10 +83,41 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6463807888000009052">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6463807888000009068">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="6463807888000009053">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3047195635420741287" resolveInfo="s" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp2q.IsEmptyOperation" typeId="tp2q.1165530316231" id="6463807888000009074" />
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2953633839503974767">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2953633839503974768">
             <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="2953633839503975450">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%d&lt;init&gt;()" resolveInfo="String" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6463807887999993593">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6463807887999993594">
+            <property name="name" nameId="tpck.1169194664001" value="machine" />
+            <node role="type" roleId="tpee.5680397130376446158" type="cj01.StateMachineType" typeId="cj01.2953633839503960890" id="6463807887999993595">
+              <link role="stateMachine" roleId="cj01.2953633839503960915" targetNodeId="6463807887999990698" resolveInfo="Machine" />
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6463807887999993596">
+              <node role="creator" roleId="tpee.1145553007750" type="cj01.StateMachineCreator" typeId="cj01.2953633839503988300" id="6463807887999993597">
+                <link role="stateMchine" roleId="cj01.2953633839503988302" targetNodeId="6463807887999990698" resolveInfo="Machine" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6463807888000008961">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6463807888000008977">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="6463807888000008962">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6463807887999993594" resolveInfo="machine" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="cj01.IsInStateOperation" typeId="cj01.6463807888000008983" id="6463807888000032397">
+              <link role="state" roleId="cj01.6463807888000016327" targetNodeId="6463807887999990699" resolveInfo="first" />
             </node>
           </node>
         </node>
@@ -110,28 +141,19 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="2953633839503872515" />
     </node>
   </root>
-  <root id="3047195635420727295">
-    <node role="initialState" roleId="cj01.2953633839503922787" type="cj01.State" typeId="cj01.2953633839503872521" id="3047195635420727296">
+  <root id="6463807887999990698">
+    <node role="type" roleId="cj01.2953633839503944004" type="tpee.StringType" typeId="tpee.1225271177708" id="6463807887999990701" />
+    <node role="state" roleId="cj01.2953633839503922786" type="cj01.State" typeId="cj01.2953633839503872521" id="6463807887999990699">
       <property name="name" nameId="tpck.1169194664001" value="first" />
-      <node role="transition" roleId="cj01.2953633839503934595" type="cj01.Transition" typeId="cj01.2953633839503922789" id="3047195635420748780">
-        <node role="expected" roleId="cj01.2953633839503934585" type="cj01.ClojureTransitionCondition" typeId="cj01.3047195635420727304" id="3047195635420749791">
-          <node role="expression" roleId="cj01.3047195635420734950" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="3047195635420749796">
-            <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="3047195635420749797">
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3047195635420749798">
-                <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="3047195635420749799">
-                  <property name="value" nameId="tpee.1068580123138" value="true" />
-                </node>
-              </node>
-            </node>
-            <node role="parameter" roleId="tp2c.1199569906740" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="3047195635420749800">
-              <property name="name" nameId="tpck.1169194664001" value="w" />
-              <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3047195635420749801" />
-            </node>
+      <node role="transition" roleId="cj01.2953633839503934595" type="cj01.Transition" typeId="cj01.2953633839503922789" id="6463807887999994142">
+        <link role="transitToState" roleId="cj01.2953633839503935196" targetNodeId="6463807887999990699" resolveInfo="first" />
+        <node role="expected" roleId="cj01.2953633839503934585" type="cj01.ClojureTransitionCondition" typeId="cj01.3047195635420727304" id="6463807888000002085">
+          <node role="expression" roleId="cj01.6463807887999994152" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="6463807888000002087">
+            <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="6463807888000002088" />
           </node>
         </node>
       </node>
     </node>
-    <node role="type" roleId="cj01.2953633839503944004" type="tpee.StringType" typeId="tpee.1225271177708" id="3047195635420727298" />
   </root>
 </model>
 

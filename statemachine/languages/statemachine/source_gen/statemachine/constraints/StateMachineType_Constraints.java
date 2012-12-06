@@ -37,7 +37,7 @@ public class StateMachineType_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return SModelOperations.getNodesIncludingImported(_context.getModel(), operationContext.getScope(), "statemachine.structure.StateMachineDeclaration");
+            return SModelOperations.getNodesIncludingImported(_context.getModel(), operationContext.getScope(), "statemachine.structure.StateMachine");
           }
 
           @Override

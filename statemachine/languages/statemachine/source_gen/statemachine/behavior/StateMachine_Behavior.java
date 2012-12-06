@@ -6,7 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
-public class StateMachineDeclaration_Behavior {
+public class StateMachine_Behavior {
   public static void init(SNode thisNode) {
   }
 

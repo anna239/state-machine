@@ -6,5 +6,11 @@
     </dependencies>
     <rename id="cj01.2953633839503872521" type="CONCEPT" from="StateMachineState" to="State" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="cj01" modelUID="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" version="0" />
+    </dependencies>
+    <rename id="cj01.2953633839503710142" type="CONCEPT" from="StateMachineDeclaration" to="StateMachine" />
+  </StructureModification>
 </history>
 

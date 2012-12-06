@@ -12,19 +12,19 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
-public class TransitionCondition_Editor extends DefaultNodeEditor {
+public class EqualsTransitionCondition_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_pchzkz_a(editorContext, node);
+    return this.createCollection_xvveuq_a(editorContext, node);
   }
 
-  private EditorCell createCollection_pchzkz_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_xvveuq_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_pchzkz_a");
-    editorCell.addEditorCell(this.createRefNode_pchzkz_a0(editorContext, node));
+    editorCell.setCellId("Collection_xvveuq_a");
+    editorCell.addEditorCell(this.createRefNode_xvveuq_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_pchzkz_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_xvveuq_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("expression");
     provider.setNoTargetText("<no expression>");
