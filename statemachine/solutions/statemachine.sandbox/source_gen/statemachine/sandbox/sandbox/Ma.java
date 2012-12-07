@@ -17,7 +17,10 @@ public class Ma {
   private Ma.MachineState getNextState(String token) {
     switch (currentState) {
       case ff:
-        <!TextGen not found for 'statemachine.structure.Transition'!>;
+        
+        if (token.equals("  ")) {
+          return isInState();
+        };
         break;
       default:
     }

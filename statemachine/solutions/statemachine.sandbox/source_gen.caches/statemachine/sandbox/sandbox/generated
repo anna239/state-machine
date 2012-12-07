@@ -3,7 +3,7 @@
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" hash="-4fu7eac0tflroh7yas0u4ol59orok0e" />
+  <dep model="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" hash="bnrxrekppn7xw598kg81wxqf0zp862b" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <common hash="-86ry83uw4vypo14sr77nm4kokeaz7ls">
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />

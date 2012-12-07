@@ -137,6 +137,12 @@
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="2903037320963995836" resolveInfo="reduce_EqualsTransitionCondition" />
       </node>
     </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="8398986181275358028">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="cj01.2953633839503922789" resolveInfo="Transition" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="8398986181275358030">
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="2903037320963944506" resolveInfo="reduce_Transition" />
+      </node>
+    </node>
   </root>
   <root id="6463807888000038938">
     <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6463807888000048431">
