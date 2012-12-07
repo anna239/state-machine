@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6sd9j8ylju5ut2k3s8rbywdhvlhcsqs">
+<dependencies version="2" modelHash="bttsbwzf319iw0xazjj8b6vvxm770jq">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" />
@@ -14,9 +14,10 @@
   <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" hash="-3p7rnowd7mkekaltkv6d4plorsf5n36" />
+  <dep model="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" hash="3aekcpkohszfvznndkog41t52mcljm9" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="-1nuijdgxywr64shpgszqiwc1od0lecu" dependsOnNodes="true">
+  <common hash="-5r488sy24z16l7ue0b526puntycuj1q" dependsOnNodes="true">
     <dep root="2953633839503988604" />
     <dep root="6463807888000016324" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
@@ -46,7 +47,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="StateMachineType_Constraints.java" />
   </source>
-  <source id="6463807888000016324" name="IsInStateOperation_Constraints" hash="-92krccdwn58puwp0da8cmyuwhej1ac8">
+  <source id="6463807888000016324" name="IsInStateOperation_Constraints" hash="-beiqauky0io9w3hgbcxnibahyy7berv">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902b7(jetbrains.mps.lang.typesystem.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
@@ -60,6 +61,7 @@
     <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
     <dep model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
+    <dep model="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="IsInStateOperation_Constraints.java" />
   </source>

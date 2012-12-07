@@ -18,8 +18,7 @@ import jetbrains.mps.baseLanguage.behavior.IOperation_Behavior;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import java.util.List;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
+import statemachine.behavior.StateMachine_Behavior;
 
 public class IsInStateOperation_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer breakingNode_jhamvi_a0a1a0a0a1a0b0a1a0 = new SNodePointer("r:79bc8d31-47a9-4116-8145-b23268aa7dd0(statemachine.constraints)", "6463807888000016336");
@@ -46,9 +45,7 @@ public class IsInStateOperation_Constraints extends BaseConstraintsDescriptor {
             SNode operand = IOperation_Behavior.call_getOperand_1213877410070(_context.getReferenceNode());
             SNode node = TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(operand), HUtil.createMatchingPatternByConceptFQName("statemachine.structure.StateMachineType"), true);
             SNode stateMachine = SLinkOperations.getTarget(node, "stateMachine", false);
-            List<SNode> allStates = SLinkOperations.getTargets(stateMachine, "state", true);
-            ListSequence.fromList(allStates).addElement(SLinkOperations.getTarget(stateMachine, "initialState", true));
-            return allStates;
+            return StateMachine_Behavior.call_getAllStates_2903037320963927292(stateMachine);
           }
 
           @Override

@@ -12,38 +12,58 @@
   <unitInfo fileName="TransitionCondition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statemachine.behavior.TransitionCondition_BehaviorDescriptor" />
   <unitInfo fileName="Transition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statemachine.behavior.Transition_BehaviorDescriptor" />
   <root nodeId="2953633839503872533" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)">
-    <nodeInfo nodeId="2953633839503922753" fileName="StateMachine_Behavior.java" startLine="13" startPosition="80" endLine="14" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2953633839503967802" fileName="StateMachine_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="9" startPosition="36" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUnitName_5067982036267369911#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPresentation_1213877396640#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
-    <scopeInfo nodeId="2953633839503872535" fileName="StateMachine_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
-    <scopeInfo nodeId="2953633839503872538" fileName="StateMachine_Behavior.java" startLine="13" startPosition="80" endLine="14" endPosition="73" />
-    <scopeInfo nodeId="2953633839503967793" fileName="StateMachine_Behavior.java" startLine="17" startPosition="78" endLine="18" endPosition="59" />
-    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="9" startPosition="36" endLine="12" endPosition="0">
+    <nodeInfo nodeId="2953633839503922753" fileName="StateMachine_Behavior.java" startLine="16" startPosition="80" endLine="17" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2953633839503967802" fileName="StateMachine_Behavior.java" startLine="20" startPosition="78" endLine="21" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2903037320963927446" fileName="StateMachine_Behavior.java" startLine="24" startPosition="87" endLine="25" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2903037320963916759" fileName="StateMachine_Behavior.java" startLine="28" startPosition="70" endLine="29" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2903037320963909207" fileName="StateMachine_Behavior.java" startLine="32" startPosition="65" endLine="33" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2903037320963916766" fileName="StateMachine_Behavior.java" startLine="36" startPosition="63" endLine="37" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="12" startPosition="36" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUnitName_5067982036267369911#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getPresentation_1213877396640#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getAllStates_2903037320963927292#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getInStateOperationName_2903037320963909190#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getStatesEnumValue_2903037320963909195#()Ljava/lang/String;" />
+    <nodeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getNextTokenName_2903037320963916761#()Ljava/lang/String;" />
+    <scopeInfo nodeId="2953633839503872535" fileName="StateMachine_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="2953633839503872538" fileName="StateMachine_Behavior.java" startLine="16" startPosition="80" endLine="17" endPosition="73" />
+    <scopeInfo nodeId="2953633839503967793" fileName="StateMachine_Behavior.java" startLine="20" startPosition="78" endLine="21" endPosition="59" />
+    <scopeInfo nodeId="2903037320963927295" fileName="StateMachine_Behavior.java" startLine="24" startPosition="87" endLine="25" endPosition="202" />
+    <scopeInfo nodeId="2903037320963909193" fileName="StateMachine_Behavior.java" startLine="28" startPosition="70" endLine="29" endPosition="23" />
+    <scopeInfo nodeId="2903037320963909198" fileName="StateMachine_Behavior.java" startLine="32" startPosition="65" endLine="33" endPosition="26" />
+    <scopeInfo nodeId="2903037320963916764" fileName="StateMachine_Behavior.java" startLine="36" startPosition="63" endLine="37" endPosition="26" />
+    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="12" startPosition="36" endLine="15" endPosition="0">
       <varInfo nodeId="2953633839503872533" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="2953633839503872533" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
       <varInfo nodeId="2953633839503872533" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="statemachine.behavior.StateMachine_Behavior" />
+    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="23" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="2953633839503872533" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <unitInfo nodeId="2953633839503872533" fileName="StateMachine_Behavior.java" startLine="12" startPosition="0" endLine="40" endPosition="0" unitName="statemachine.behavior.StateMachine_Behavior" />
   </root>
   <root nodeId="2953633839503922757" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)">
-    <nodeInfo nodeId="6463807888000048398" fileName="State_Behavior.java" startLine="12" startPosition="81" endLine="13" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2903037320964027965" fileName="State_Behavior.java" startLine="12" startPosition="81" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2903037320964026228" fileName="State_Behavior.java" startLine="13" startPosition="33" endLine="14" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6463807888000048398" fileName="State_Behavior.java" startLine="14" startPosition="72" endLine="15" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="8" startPosition="29" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getEnumNodeName_6463807888000048393#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="11" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getEnumNodeName_6463807888000048393#(Ljetbrains/mps/smodel/SNode;)Ljava/lang/String;" />
     <scopeInfo nodeId="2953633839503922759" fileName="State_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="6463807888000048396" fileName="State_Behavior.java" startLine="12" startPosition="81" endLine="13" endPosition="59" />
     <scopeInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="8" startPosition="29" endLine="11" endPosition="0">
       <varInfo nodeId="2953633839503922757" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+    <scopeInfo nodeId="6463807888000048396" fileName="State_Behavior.java" startLine="12" startPosition="81" endLine="15" endPosition="59" />
+    <scopeInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="11" startPosition="0" endLine="17" endPosition="0">
       <varInfo nodeId="2953633839503922757" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="statemachine.behavior.State_Behavior" />
+    <unitInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="8" startPosition="0" endLine="18" endPosition="0" unitName="statemachine.behavior.State_Behavior" />
   </root>
 </debugInfo>
 

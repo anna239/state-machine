@@ -5,6 +5,9 @@ package statemachine.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class StateMachine_Behavior {
   public static void init(SNode thisNode) {
@@ -16,5 +19,21 @@ public class StateMachine_Behavior {
 
   public static String virtual_getPresentation_1213877396640(SNode thisNode) {
     return SPropertyOperations.getString(thisNode, "name");
+  }
+
+  public static Iterable<SNode> call_getAllStates_2903037320963927292(SNode thisNode) {
+    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "state", true)).concat(Sequence.fromIterable(Sequence.<SNode>singleton(SLinkOperations.getTarget(thisNode, "initialState", true))));
+  }
+
+  public static String getInStateOperationName_2903037320963909190() {
+    return "isInState";
+  }
+
+  public static String getStatesEnumValue_2903037320963909195() {
+    return "MachineState";
+  }
+
+  public static String getNextTokenName_2903037320963916761() {
+    return "addNextToken";
   }
 }
