@@ -3,7 +3,7 @@
   <persistence version="7" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="cj01" modelUID="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" version="1" />
+  <import index="cj01" modelUID="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" version="2" />
   <import index="tpcu" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -29,14 +29,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="type" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cj01.2953633839503988300" resolveInfo="StateMachineCreator" />
     </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6463807887999994149">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="transition" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cj01.3047195635420720844" resolveInfo="EqualsTransitionCondition" />
-    </node>
-    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6463807887999994153">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="transition" />
-      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cj01.3047195635420727304" resolveInfo="ClojureTransitionCondition" />
-    </node>
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6463807888000008988">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cj01.6463807888000008983" resolveInfo="IsInStateOperation" />
@@ -44,6 +36,14 @@
     <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6463807888000039005">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="operation" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cj01.6463807888000039002" resolveInfo="AddNextTokenOperation" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6463807887999994149">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="transition" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cj01.3047195635420720844" resolveInfo="EqualsTransitionCondition" />
+    </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6463807887999994153">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="transition" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cj01.3047195635420727304" resolveInfo="ClojureTransitionCondition" />
     </node>
   </roots>
   <root id="2953633839503722482">
@@ -334,16 +334,6 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="2953633839503988312" />
     </node>
   </root>
-  <root id="6463807887999994149">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="6463807887999994151">
-      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cj01.6463807887999994148" />
-    </node>
-  </root>
-  <root id="6463807887999994153">
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="6463807887999994155">
-      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cj01.6463807887999994152" />
-    </node>
-  </root>
   <root id="6463807888000008988">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6463807888000008990">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_ConceptProperty" typeId="tpc2.1137553248617" id="6463807888000008998">
@@ -405,6 +395,16 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6463807888000039010" />
+    </node>
+  </root>
+  <root id="6463807887999994149">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="6463807887999994151">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cj01.6463807887999994148" />
+    </node>
+  </root>
+  <root id="6463807887999994153">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="6463807887999994155">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cj01.6463807887999994152" />
     </node>
   </root>
 </model>

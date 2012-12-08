@@ -22,11 +22,10 @@ public class typeof_ClojureTransitionCondition_InferenceRule extends AbstractInf
 
   public void applyRule(final SNode condition, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     SNode stateMachine = SNodeOperations.as(SNodeOperations.getParent(SNodeOperations.getParent(SNodeOperations.getParent(condition))), "statemachine.structure.StateMachine");
-    System.out.println(stateMachine);
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(condition, "expression", true);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)", "3047195635420741257", 0, null);
-      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)", "3047195635420741263", true), (SNode) new typeof_ClojureTransitionCondition_InferenceRule.QuotationClass_lcvu5v_a0a2a0().createNode(SLinkOperations.getTarget(stateMachine, "type", true), typeCheckingContext), false, true, _info_12389875345);
+      typeCheckingContext.createLessThanInequality((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)", "3047195635420741263", true), (SNode) new typeof_ClojureTransitionCondition_InferenceRule.QuotationClass_lcvu5v_a0a1a0().createNode(SLinkOperations.getTarget(stateMachine, "type", true), typeCheckingContext), false, true, _info_12389875345);
     }
   }
 
@@ -45,8 +44,8 @@ public class typeof_ClojureTransitionCondition_InferenceRule extends AbstractInf
     return false;
   }
 
-  public static class QuotationClass_lcvu5v_a0a2a0 {
-    public QuotationClass_lcvu5v_a0a2a0() {
+  public static class QuotationClass_lcvu5v_a0a1a0 {
+    public QuotationClass_lcvu5v_a0a1a0() {
     }
 
     public SNode createNode(Object parameter_7, final TypeCheckingContext typeCheckingContext) {

@@ -12,5 +12,11 @@
     </dependencies>
     <rename id="cj01.2953633839503710142" type="CONCEPT" from="StateMachineDeclaration" to="StateMachine" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="cj01" modelUID="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" version="1" />
+    </dependencies>
+    <move id="cj01.6463807887999994148" to="cj01.871947940434873615" />
+  </StructureModification>
 </history>
 

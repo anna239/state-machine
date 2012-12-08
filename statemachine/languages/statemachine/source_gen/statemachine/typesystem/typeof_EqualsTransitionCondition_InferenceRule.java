@@ -18,7 +18,6 @@ public class typeof_EqualsTransitionCondition_InferenceRule extends AbstractInfe
 
   public void applyRule(final SNode condition, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     SNode stateMachine = SNodeOperations.as(SNodeOperations.getParent(SNodeOperations.getParent(SNodeOperations.getParent(condition))), "statemachine.structure.StateMachine");
-    System.out.println(stateMachine);
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(condition, "expression", true);
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)", "3047195635420720993", 0, null);

@@ -13,6 +13,7 @@ import statemachine.behavior.StateMachine_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import statemachine.behavior.TransitionCondition_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
@@ -70,16 +71,16 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "state", false);
   }
 
-  public static SNode sourceNodeQuery_2903037320963995756(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_871947940434834387(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return TransitionCondition_Behavior.call_getConditionType_871947940434887993(SLinkOperations.getTarget(_context.getNode(), "expected", true));
+  }
+
+  public static SNode sourceNodeQuery_871947940434888199(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return TransitionCondition_Behavior.call_getExpression_871947940434888344(SLinkOperations.getTarget(_context.getNode(), "expected", true));
+  }
+
+  public static SNode sourceNodeQuery_871947940434888481(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "expected", true);
-  }
-
-  public static SNode sourceNodeQuery_2903037320963996048(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "expression", true);
-  }
-
-  public static SNode sourceNodeQuery_2903037320963995891(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "expression", true);
   }
 
   public static Iterable sourceNodesQuery_2903037320963925357(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

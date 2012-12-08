@@ -2,14 +2,14 @@
 <debugInfo>
   <unitInfo fileName="AddNextTokenOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="statemachine.behavior.AddNextTokenOperation_BehaviorDescriptor" />
   <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="40" endPosition="0" unitName="statemachine.behavior.BehaviorAspectDescriptor" />
-  <unitInfo fileName="ClojureTransitionCondition_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="statemachine.behavior.ClojureTransitionCondition_BehaviorDescriptor" />
-  <unitInfo fileName="EqualsTransitionCondition_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="statemachine.behavior.EqualsTransitionCondition_BehaviorDescriptor" />
+  <unitInfo fileName="ClojureTransitionCondition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="statemachine.behavior.ClojureTransitionCondition_BehaviorDescriptor" />
+  <unitInfo fileName="EqualsTransitionCondition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="statemachine.behavior.EqualsTransitionCondition_BehaviorDescriptor" />
   <unitInfo fileName="IsInStateOperation_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="35" endPosition="0" unitName="statemachine.behavior.IsInStateOperation_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineCreator_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statemachine.behavior.StateMachineCreator_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statemachine.behavior.StateMachineType_BehaviorDescriptor" />
   <unitInfo fileName="StateMachine_BehaviorDescriptor.java" startLine="16" startPosition="0" endLine="53" endPosition="0" unitName="statemachine.behavior.StateMachine_BehaviorDescriptor" />
   <unitInfo fileName="State_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="statemachine.behavior.State_BehaviorDescriptor" />
-  <unitInfo fileName="TransitionCondition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statemachine.behavior.TransitionCondition_BehaviorDescriptor" />
+  <unitInfo fileName="TransitionCondition_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="statemachine.behavior.TransitionCondition_BehaviorDescriptor" />
   <unitInfo fileName="Transition_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="statemachine.behavior.Transition_BehaviorDescriptor" />
   <root nodeId="2953633839503872533" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)">
     <nodeInfo nodeId="2953633839503922753" fileName="StateMachine_Behavior.java" startLine="16" startPosition="80" endLine="17" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -64,6 +64,88 @@
       <varInfo nodeId="2953633839503922757" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="2953633839503922757" fileName="State_Behavior.java" startLine="8" startPosition="0" endLine="18" endPosition="0" unitName="statemachine.behavior.State_Behavior" />
+  </root>
+  <root nodeId="871947940434887990" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)">
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_871947940434887993" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="12" startPosition="71" endLine="13" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="PARAMETERS_871947940434888344" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="18" startPosition="80" endLine="19" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="19" startPosition="113" endLine="20" endPosition="223" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="23" startPosition="77" endLine="24" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="24" startPosition="113" endLine="25" endPosition="220" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="28" startPosition="113" endLine="29" endPosition="268" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="32" startPosition="110" endLine="33" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getConditionType_871947940434887993#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getExpression_871947940434888344#(Ljetbrains/mps/smodel/SNode;Ljava/lang/String;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="17" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getConditionType_871947940434887993#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="22" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getExpression_871947940434888344#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="871947940434887992" fileName="TransitionCondition_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="28" startPosition="113" endLine="29" endPosition="268" />
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="32" startPosition="110" endLine="33" endPosition="265" />
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="18" startPosition="80" endLine="20" endPosition="223">
+      <varInfo nodeId="871947940434887990" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="23" startPosition="77" endLine="25" endPosition="220">
+      <varInfo nodeId="871947940434887990" varName="descriptor" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="14" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="871947940434887990" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="871947940434887990" varName="callerConceptFqName" />
+      <varInfo nodeId="871947940434887990" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="871947940434887990" varName="callerConceptFqName" />
+      <varInfo nodeId="871947940434887990" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="17" startPosition="0" endLine="22" endPosition="0">
+      <varInfo nodeId="871947940434887990" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="22" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="871947940434887990" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="871947940434887990" fileName="TransitionCondition_Behavior.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="statemachine.behavior.TransitionCondition_Behavior" />
+  </root>
+  <root nodeId="871947940434887998" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)">
+    <nodeInfo nodeId="871947940434888005" fileName="ClojureTransitionCondition_Behavior.java" startLine="13" startPosition="83" endLine="14" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434888356" fileName="ClojureTransitionCondition_Behavior.java" startLine="17" startPosition="80" endLine="18" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434887998" fileName="ClojureTransitionCondition_Behavior.java" startLine="9" startPosition="50" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="871947940434887998" fileName="ClojureTransitionCondition_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getConditionType_871947940434887993#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="871947940434887998" fileName="ClojureTransitionCondition_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getExpression_871947940434888344#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="871947940434888000" fileName="ClojureTransitionCondition_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="871947940434888003" fileName="ClojureTransitionCondition_Behavior.java" startLine="13" startPosition="83" endLine="14" endPosition="104" />
+    <scopeInfo nodeId="871947940434888354" fileName="ClojureTransitionCondition_Behavior.java" startLine="17" startPosition="80" endLine="18" endPosition="67" />
+    <scopeInfo nodeId="871947940434887998" fileName="ClojureTransitionCondition_Behavior.java" startLine="9" startPosition="50" endLine="12" endPosition="0">
+      <varInfo nodeId="871947940434887998" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887998" fileName="ClojureTransitionCondition_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="871947940434887998" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434887998" fileName="ClojureTransitionCondition_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="871947940434887998" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="871947940434887998" fileName="ClojureTransitionCondition_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="statemachine.behavior.ClojureTransitionCondition_Behavior" />
+  </root>
+  <root nodeId="871947940434888125" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)">
+    <nodeInfo nodeId="871947940434888136" fileName="EqualsTransitionCondition_Behavior.java" startLine="13" startPosition="83" endLine="14" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434888390" fileName="EqualsTransitionCondition_Behavior.java" startLine="17" startPosition="80" endLine="18" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="871947940434888125" fileName="EqualsTransitionCondition_Behavior.java" startLine="9" startPosition="49" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="871947940434888125" fileName="EqualsTransitionCondition_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getConditionType_871947940434887993#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="871947940434888125" fileName="EqualsTransitionCondition_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getExpression_871947940434888344#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="871947940434888127" fileName="EqualsTransitionCondition_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="871947940434888134" fileName="EqualsTransitionCondition_Behavior.java" startLine="13" startPosition="83" endLine="14" endPosition="104" />
+    <scopeInfo nodeId="871947940434888388" fileName="EqualsTransitionCondition_Behavior.java" startLine="17" startPosition="80" endLine="18" endPosition="67" />
+    <scopeInfo nodeId="871947940434888125" fileName="EqualsTransitionCondition_Behavior.java" startLine="9" startPosition="49" endLine="12" endPosition="0">
+      <varInfo nodeId="871947940434888125" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434888125" fileName="EqualsTransitionCondition_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="871947940434888125" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="871947940434888125" fileName="EqualsTransitionCondition_Behavior.java" startLine="16" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="871947940434888125" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="871947940434888125" fileName="EqualsTransitionCondition_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="statemachine.behavior.EqualsTransitionCondition_Behavior" />
   </root>
 </debugInfo>
 

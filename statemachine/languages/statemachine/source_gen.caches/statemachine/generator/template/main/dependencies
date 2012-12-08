@@ -16,6 +16,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="statemachine.behavior.StateMachine_Behavior" />
     <classNode dependClassName="statemachine.behavior.State_Behavior" />
+    <classNode dependClassName="statemachine.behavior.TransitionCondition_Behavior" />
   </dependency>
 </dependenciesRoot>
 
