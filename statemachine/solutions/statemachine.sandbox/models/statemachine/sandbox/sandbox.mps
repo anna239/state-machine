@@ -134,14 +134,6 @@
     </node>
     <node role="state" roleId="cj01.2953633839503922786" type="cj01.State" typeId="cj01.2953633839503872521" id="7490299935948564094">
       <property name="name" nameId="tpck.1169194664001" value="f2" />
-      <node role="transition" roleId="cj01.2953633839503934595" type="cj01.Transition" typeId="cj01.2953633839503922789" id="871947940434896775">
-        <link role="transitToState" roleId="cj01.2953633839503935196" targetNodeId="7490299935948563382" resolveInfo="f1" />
-        <node role="expected" roleId="cj01.2953633839503934585" type="cj01.EqualsTransitionCondition" typeId="cj01.3047195635420720844" id="871947940434896777">
-          <node role="expression" roleId="cj01.6463807887999994148" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="871947940434896779">
-            <property name="value" nameId="tpee.1070475926801" value="hi" />
-          </node>
-        </node>
-      </node>
     </node>
     <node role="type" roleId="cj01.2953633839503944004" type="tpee.StringType" typeId="tpee.1225271177708" id="6463807888000046698" />
     <node role="initialState" roleId="cj01.2953633839503922787" type="cj01.State" typeId="cj01.2953633839503872521" id="2903037320964026951">

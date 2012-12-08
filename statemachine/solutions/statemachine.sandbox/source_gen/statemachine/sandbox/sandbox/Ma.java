@@ -31,13 +31,6 @@ public class Ma {
         };
         break;
       case f2:
-        
-        {
-          String condition = "hi";
-          if (token.equals(condition)) {
-            return null;
-          }
-        };
         break;
       case ff:
         

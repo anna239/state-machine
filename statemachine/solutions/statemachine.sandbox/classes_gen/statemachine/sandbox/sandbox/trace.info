@@ -32,41 +32,36 @@
     <nodeInfo nodeId="7490299935948563391" fileName="Ma.java" startLine="24" startPosition="45" endLine="25" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7490299935948563383" fileName="Ma.java" startLine="28" startPosition="40" endLine="29" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="31" startPosition="10" endLine="32" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="871947940434896775" fileName="Ma.java" startLine="35" startPosition="9" endLine="36" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="871947940434896775" fileName="Ma.java" startLine="37" startPosition="40" endLine="38" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="40" startPosition="10" endLine="41" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="44" startPosition="9" endLine="45" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="46" startPosition="40" endLine="47" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="49" startPosition="10" endLine="50" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="52" startPosition="5" endLine="53" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="56" startPosition="51" endLine="57" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="64" startPosition="0" endLine="66" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MachineState#()V" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="33" startPosition="14" endLine="34" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="37" startPosition="9" endLine="38" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="39" startPosition="40" endLine="40" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="42" startPosition="10" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="45" startPosition="5" endLine="46" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="49" startPosition="51" endLine="50" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="57" startPosition="0" endLine="59" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MachineState#()V" />
     <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="9" startPosition="0" endLine="12" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Ma#()V" />
     <nodeInfo nodeId="7490299935948563383" fileName="Ma.java" startLine="27" startPosition="12" endLine="30" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="871947940434896775" fileName="Ma.java" startLine="36" startPosition="34" endLine="39" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="45" startPosition="34" endLine="48" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="38" startPosition="34" endLine="41" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="13" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="addNextToken#(Ljava/lang/String;)V" />
     <nodeInfo nodeId="7490299935948563387" fileName="Ma.java" startLine="23" startPosition="139" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/String;)Ljava/lang/Boolean;" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="55" startPosition="0" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInState#(Lstatemachine/sandbox/sandbox/Ma/MachineState;)Z" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isInState#(Lstatemachine/sandbox/sandbox/Ma/MachineState;)Z" />
     <nodeInfo nodeId="7490299935948563383" fileName="Ma.java" startLine="22" startPosition="9" endLine="27" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="871947940434896775" fileName="Ma.java" startLine="34" startPosition="8" endLine="40" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="43" startPosition="8" endLine="49" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="33" startPosition="14" endLine="40" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="42" startPosition="14" endLine="49" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="36" startPosition="8" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="35" startPosition="14" endLine="42" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7490299935948563383" fileName="Ma.java" startLine="21" startPosition="8" endLine="31" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="20" startPosition="14" endLine="31" endPosition="10" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="18" startPosition="54" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
-    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="17" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNextState#(Ljava/lang/String;)Lstatemachine/sandbox/sandbox/Ma/MachineState;" />
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="51" startPosition="14" endLine="51" endPosition="14" />
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="65" startPosition="20" endLine="65" endPosition="20" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="18" startPosition="54" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+    <nodeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="17" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getNextState#(Ljava/lang/String;)Lstatemachine/sandbox/sandbox/Ma/MachineState;" />
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="44" startPosition="14" endLine="44" endPosition="14" />
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="58" startPosition="20" endLine="58" endPosition="20" />
     <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="10" startPosition="15" endLine="11" endPosition="67" />
     <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="14" startPosition="42" endLine="15" endPosition="39" />
     <scopeInfo nodeId="7490299935948563388" fileName="Ma.java" startLine="24" startPosition="45" endLine="25" endPosition="52" />
     <scopeInfo nodeId="7490299935948563383" fileName="Ma.java" startLine="28" startPosition="40" endLine="29" endPosition="24" />
-    <scopeInfo nodeId="871947940434896775" fileName="Ma.java" startLine="37" startPosition="40" endLine="38" endPosition="24" />
-    <scopeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="46" startPosition="40" endLine="47" endPosition="24" />
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="56" startPosition="51" endLine="57" endPosition="33" />
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="64" startPosition="0" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="33" startPosition="14" endLine="34" endPosition="14" />
+    <scopeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="39" startPosition="40" endLine="40" endPosition="24" />
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="49" startPosition="51" endLine="50" endPosition="33" />
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="57" startPosition="0" endLine="59" endPosition="5" />
     <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="9" startPosition="0" endLine="12" endPosition="3" />
     <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="13" startPosition="0" endLine="17" endPosition="0">
       <varInfo nodeId="6463807888000046695" varName="token" />
@@ -74,28 +69,24 @@
     <scopeInfo nodeId="7490299935948563387" fileName="Ma.java" startLine="23" startPosition="139" endLine="27" endPosition="0">
       <varInfo nodeId="7490299935948563387" varName="s" />
     </scopeInfo>
-    <scopeInfo nodeId="871947940434896775" fileName="Ma.java" startLine="35" startPosition="9" endLine="39" endPosition="11">
-      <varInfo nodeId="871947940434896775" varName="condition" />
-    </scopeInfo>
-    <scopeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="44" startPosition="9" endLine="48" endPosition="11">
+    <scopeInfo nodeId="2903037320964026952" fileName="Ma.java" startLine="37" startPosition="9" endLine="41" endPosition="11">
       <varInfo nodeId="2903037320964026952" varName="condition" />
     </scopeInfo>
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="55" startPosition="0" endLine="59" endPosition="0">
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="48" startPosition="0" endLine="52" endPosition="0">
       <varInfo nodeId="6463807888000046695" varName="state" />
     </scopeInfo>
     <scopeInfo nodeId="7490299935948563383" fileName="Ma.java" startLine="22" startPosition="9" endLine="30" endPosition="11">
       <varInfo nodeId="7490299935948563383" varName="condition" />
     </scopeInfo>
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="33" startPosition="14" endLine="41" endPosition="14" />
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="42" startPosition="14" endLine="50" endPosition="14" />
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="35" startPosition="14" endLine="43" endPosition="14" />
     <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="20" startPosition="14" endLine="32" endPosition="14" />
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="18" startPosition="54" endLine="53" endPosition="62" />
-    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="17" startPosition="0" endLine="55" endPosition="0">
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="18" startPosition="54" endLine="46" endPosition="62" />
+    <scopeInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="17" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="6463807888000046695" varName="token" />
     </scopeInfo>
     <unitInfo nodeId="7490299935948563387" fileName="Ma.java" startLine="23" startPosition="90" endLine="27" endPosition="11" unitName="statemachine.sandbox.sandbox.Ma$1" />
-    <unitInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="60" startPosition="0" endLine="68" endPosition="0" unitName="statemachine.sandbox.sandbox.Ma$MachineState" />
-    <unitInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="7" startPosition="0" endLine="69" endPosition="0" unitName="statemachine.sandbox.sandbox.Ma" />
+    <unitInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="53" startPosition="0" endLine="61" endPosition="0" unitName="statemachine.sandbox.sandbox.Ma$MachineState" />
+    <unitInfo nodeId="6463807888000046695" fileName="Ma.java" startLine="7" startPosition="0" endLine="62" endPosition="0" unitName="statemachine.sandbox.sandbox.Ma" />
   </root>
 </debugInfo>
 
