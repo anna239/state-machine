@@ -7,17 +7,19 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"statemachine.structure.IsInStateOperation", "statemachine.structure.StateMachineType"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"statemachine.structure.IsInStateOperation", "statemachine.structure.StateMachineOperation", "statemachine.structure.StateMachineType"};
 
   public ConstraintsAspectDescriptor() {
   }
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
-      case 1:
+      case 2:
         return new StateMachineType_Constraints();
       case 0:
         return new IsInStateOperation_Constraints();
+      case 1:
+        return new StateMachineOperation_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);

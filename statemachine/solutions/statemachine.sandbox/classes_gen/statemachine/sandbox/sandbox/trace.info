@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="2953633839503720477" modelId="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)">
-    <nodeInfo nodeId="2953633839503934586" fileName="Main.java" startLine="8" startPosition="17" endLine="9" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7490299935948599385" fileName="Main.java" startLine="11" startPosition="39" endLine="12" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7490299935948563278" fileName="Main.java" startLine="14" startPosition="17" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7490299935948563286" fileName="Main.java" startLine="15" startPosition="21" endLine="16" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7490299935948599383" fileName="Main.java" startLine="10" startPosition="57" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="invoke#(Ljava/lang/String;)Ljava/lang/Boolean;" />
-    <nodeInfo nodeId="7490299935948599358" fileName="Main.java" startLine="9" startPosition="27" endLine="14" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2953633839503720479" fileName="Main.java" startLine="7" startPosition="19" endLine="17" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Main#()V" />
-    <scopeInfo nodeId="7490299935948599384" fileName="Main.java" startLine="11" startPosition="39" endLine="12" endPosition="20" />
-    <scopeInfo nodeId="7490299935948599383" fileName="Main.java" startLine="10" startPosition="57" endLine="14" endPosition="0">
-      <varInfo nodeId="7490299935948599383" varName="s" />
-    </scopeInfo>
-    <scopeInfo nodeId="2953633839503720482" fileName="Main.java" startLine="8" startPosition="17" endLine="16" endPosition="29">
+    <nodeInfo nodeId="2953633839503934586" fileName="Main.java" startLine="7" startPosition="17" endLine="8" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7490299935948563278" fileName="Main.java" startLine="8" startPosition="27" endLine="9" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7490299935948563286" fileName="Main.java" startLine="9" startPosition="21" endLine="10" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="2953633839503720479" fileName="Main.java" startLine="6" startPosition="19" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Main#()V" />
+    <scopeInfo nodeId="2953633839503720482" fileName="Main.java" startLine="7" startPosition="17" endLine="10" endPosition="29">
       <varInfo nodeId="7490299935948563279" varName="sm" />
     </scopeInfo>
-    <scopeInfo nodeId="2953633839503720479" fileName="Main.java" startLine="7" startPosition="19" endLine="17" endPosition="3" />
-    <unitInfo nodeId="7490299935948599383" fileName="Main.java" startLine="10" startPosition="8" endLine="14" endPosition="5" unitName="statemachine.sandbox.sandbox.Main$1" />
-    <unitInfo nodeId="2953633839503720477" fileName="Main.java" startLine="7" startPosition="0" endLine="19" endPosition="0" unitName="statemachine.sandbox.sandbox.Main" />
+    <scopeInfo nodeId="2953633839503720479" fileName="Main.java" startLine="6" startPosition="19" endLine="11" endPosition="3" />
+    <unitInfo nodeId="2953633839503720477" fileName="Main.java" startLine="6" startPosition="0" endLine="13" endPosition="0" unitName="statemachine.sandbox.sandbox.Main" />
   </root>
   <root nodeId="2953633839503872510" modelId="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)">
     <nodeInfo nodeId="2953633839503872512" fileName="Enu.java" startLine="9" startPosition="0" endLine="11" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Enu#()V" />
