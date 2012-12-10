@@ -29,35 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401516de-a581-4ec7-b093-a3327ed53aad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/StateMachineOperation_BehaviorDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/constraints/StateMachineOperation_Constraints.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/constraints/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/structure/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/structure/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/constraints/dependencies" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/constraints/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/constraints/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/editor/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/editor/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/structure/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/typesystem/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/typesystem/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/constraints/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/structure/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/structure/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/classes_gen/statemachine/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/classes_gen/statemachine/sandbox/sandbox/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/dependencies" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/generated" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/statemachine/languageModels/constraints.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/statemachine/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/AddNextTokenOperation_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/AddNextTokenOperation_BehaviorDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/IsInStateOperation_BehaviorDescriptor.java" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/IsInStateOperation_BehaviorDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/constraints/ConstraintsAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/constraints/ConstraintsAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/structure/StructureAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/models/statemachine/sandbox/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/models/statemachine/sandbox/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Main.java" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/statemachine/languageModels/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/State_Behavior.java" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/State_Behavior.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statemachine.iws" afterPath="$PROJECT_DIR$/statemachine.iws" />
     </list>
     <ignored path="statemachine.iws" />
@@ -89,8 +69,8 @@
     <finders_option node="jetbrains.mps.lang.structure.structure.ConceptDeclaration">
       <finders>
         <finder class_name="jetbrains.mps.lang.structure.findUsages.ConceptInstances_Finder" />
-        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
         <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeAndDescendantsUsages_Finder" />
+        <finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
       </finders>
     </finders_option>
     <finders_option node="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration">
@@ -168,19 +148,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNextTokenOperation" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AddNextTokenOperation" pinned="false" current="true" current-in-tab="true">
         <entry file="mps://statemachine.structure/AddNextTokenOperation">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="6463807888000039023" modelId="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintStatement" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://jetbrains.mps.baseLanguage.logging.structure/PrintStatement">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="168" />
-                    <property name="caretX" value="507" />
+                    <property name="caretXRelative" value="80" />
+                    <property name="caretX" value="155" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="6463807888000039002" />
+                    <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                      <node model="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" id="1168401810208" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -190,12 +187,29 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="6463807888000039002" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
+              <node nodeId="1168401810208" modelId="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="State" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://statemachine.structure/State">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="2953633839503922757" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://statemachine.sandbox.sandbox/Main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -587,7 +601,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32809612" sideWeight="0.4886678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.47654504" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32520324" sideWeight="0.47356665" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.4944155" order="7" side_tool="false" content_ui="tabs" />
@@ -601,17 +615,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.271035" sideWeight="0.6796748" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.271035" sideWeight="0.67479676" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249309" sideWeight="0.6719039" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.49069247" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3203252" sideWeight="0.48473567" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32520324" sideWeight="0.52122116" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3203252" sideWeight="0.51005214" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203252" sideWeight="0.51005214" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,6 +649,14 @@
             <children>
               <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
                 <children />
+                <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.ConceptInstances_Finder" />
+              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+                <children />
+                <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeAndDescendantsUsages_Finder" />
+              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+                <children />
                 <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
               </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
             </children>
@@ -643,7 +665,7 @@
             <scope scope_type="project_scope" />
             <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
               <node>
-                <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="6463807887999994152" />
+                <node model="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" id="1168401810208" />
               </node>
             </holder>
           </query>
@@ -668,34 +690,24 @@
                       </data>
                       <children>
                         <child>
-                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="statemachine" info="" excluded="false" expanded="true" isresult="false" results_section="false" module_ref="8e26153e-fabf-47e0-92e3-9aff2ccf1b88(statemachine)">
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="jetbrains.mps.baseLanguage.logging" info="" excluded="false" expanded="true" isresult="false" results_section="false" module_ref="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)">
                             <role name="module" />
                           </data>
                           <children>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="statemachine.structure" info="" excluded="false" expanded="false" isresult="false" results_section="false">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="jetbrains.mps.baseLanguage.logging.structure" info="" excluded="false" expanded="false" isresult="false" results_section="false">
                                 <role name="model" />
-                                <model uid="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
+                                <model uid="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ClojureTransitionCondition" info="" excluded="false" expanded="true" isresult="false" results_section="false">
-                                    <role name="root" />
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="PrintStatement" info="" excluded="false" expanded="false" isresult="true" results_section="false">
+                                    <role name="target" />
                                     <node>
-                                      <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="3047195635420727304" />
+                                      <node model="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" id="1168401810208" />
                                     </node>
                                   </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="expression" info="role: &lt;i&gt;linkDeclaration&lt;/i&gt;; in: &lt;i&gt;ClojureTransitionCondition&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false">
-                                        <role name="target" />
-                                        <node>
-                                          <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="6463807887999994152" />
-                                        </node>
-                                      </data>
-                                      <children />
-                                    </child>
-                                  </children>
+                                  <children />
                                 </child>
                               </children>
                             </child>
@@ -711,7 +723,7 @@
                   </data>
                   <children>
                     <child>
-                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Concept Instances&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Concept Instances" category_kind="Category">
                         <role name="category:Category" />
                       </data>
                       <children>
@@ -721,102 +733,67 @@
                           </data>
                           <children>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="statemachine.editor" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="statemachine.behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true">
                                 <role name="model" />
-                                <model uid="r:12604a96-9ef4-418b-9fb5-3bc0dfbd998c(statemachine.editor)" />
+                                <model uid="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ClojureTransitionCondition_Editor" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="State_Behavior" info="" excluded="false" expanded="true" isresult="false" results_section="true">
                                     <role name="root" />
                                     <node>
-                                      <node model="r:12604a96-9ef4-418b-9fb5-3bc0dfbd998c(statemachine.editor)" id="6463807887999994153" />
+                                      <node model="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" id="2953633839503922757" />
                                     </node>
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="%expression%" info="role: &lt;i&gt;cellModel&lt;/i&gt;; in: &lt;i&gt;ClojureTransitionCondition_Editor&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                        <role name="target" />
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="getEnumNodeName():string" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;State_Behavior&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
                                         <node>
-                                          <node model="r:12604a96-9ef4-418b-9fb5-3bc0dfbd998c(statemachine.editor)" id="6463807887999994155" />
+                                          <node model="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" id="6463807888000048393" />
                                         </node>
                                       </data>
-                                      <children />
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="print" info="role: &lt;i&gt;statement&lt;/i&gt;; in: &lt;i&gt;StatementList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node />
+                                          </data>
+                                          <children />
+                                        </child>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="print" info="role: &lt;i&gt;statement&lt;/i&gt;; in: &lt;i&gt;StatementList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
                                     </child>
                                   </children>
                                 </child>
                               </children>
                             </child>
                             <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="statemachine.typesystem" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="statemachine.typesystem" info="" excluded="false" expanded="true" isresult="false" results_section="true">
                                 <role name="model" />
                                 <model uid="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" />
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeof_ClojureTransitionCondition" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeof_AddNextTokenOperation" info="" excluded="false" expanded="true" isresult="false" results_section="true">
                                     <role name="root" />
                                     <node>
-                                      <node model="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" id="3047195635420741243" />
+                                      <node model="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" id="6463807888000039023" />
                                     </node>
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="expression" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="print" info="role: &lt;i&gt;statement&lt;/i&gt;; in: &lt;i&gt;StatementList&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
                                         <role name="target" />
-                                        <node>
-                                          <node model="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" id="6463807888000001065" />
-                                        </node>
-                                      </data>
-                                      <children />
-                                    </child>
-                                  </children>
-                                </child>
-                              </children>
-                            </child>
-                          </children>
-                        </child>
-                        <child>
-                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="statemachine (generator/StateMachine)" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="5613a3fb-95e0-4e68-8444-22c4ef608272(statemachine#6463807888000038823)">
-                            <role name="module" />
-                          </data>
-                          <children>
-                            <child>
-                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="statemachine.generator.template.main@generator" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                <role name="model" />
-                                <model uid="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" />
-                              </data>
-                              <children>
-                                <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="reduce_ClojureTransitionCondition" info="" excluded="false" expanded="false" isresult="false" results_section="true">
-                                    <role name="root" />
-                                    <node>
-                                      <node model="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" id="2903037320963995832" />
-                                    </node>
-                                  </data>
-                                  <children>
-                                    <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="C" info="role: &lt;i&gt;contentNode&lt;/i&gt;; in: &lt;i&gt;reduce_ClojureTransitionCondition&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                        <role name="root to target" />
                                         <node />
                                       </data>
-                                      <children>
-                                        <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="m(Object):void" info="role: &lt;i&gt;method&lt;/i&gt;; in: &lt;i&gt;C&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
-                                            <role name="root to target" />
-                                            <node />
-                                          </data>
-                                          <children>
-                                            <child>
-                                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="expression" info="role: &lt;i&gt;operation&lt;/i&gt;; in: &lt;i&gt;DotExpression&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
-                                                <role name="target" />
-                                                <node />
-                                              </data>
-                                              <children />
-                                            </child>
-                                          </children>
-                                        </child>
-                                      </children>
+                                      <children />
                                     </child>
                                   </children>
                                 </child>
@@ -876,7 +853,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix generation of empy state" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix sm operations" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -894,23 +871,9 @@
     <MESSAGE value="added gen for nexttoken" />
     <MESSAGE value="fixed clodure generaton" />
     <MESSAGE value="fix generation of empy state" />
+    <MESSAGE value="fix sm operations" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://jetbrains.mps.baseLanguage.closures.structure/CompactInvokeFunctionExpression">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="7246115176735007543" modelId="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Ma.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="32" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" />
@@ -1018,21 +981,6 @@
             <folded />
           </inspectorMemento>
           <node nodeId="2953633839503710142" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/State">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="2903037320963995770" modelId="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" />
         </state>
       </provider>
     </entry>
@@ -1155,31 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://statemachine.structure/AddNextTokenOperation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="168" />
-                <property name="caretX" value="507" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="6463807888000039002" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="6463807888000039002" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://statemachine.sandbox.sandbox/Main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1201,6 +1124,61 @@
             <selectionStack />
             <folded />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://jetbrains.mps.baseLanguage.logging.structure/PrintStatement">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="80" />
+                <property name="caretX" value="155" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                  <node model="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" id="1168401810208" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="1168401810208" modelId="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://statemachine.structure/State">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="2953633839503922757" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://statemachine.structure/AddNextTokenOperation">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="6463807888000039023" modelId="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" />
         </state>
       </provider>
     </entry>

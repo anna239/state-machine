@@ -10,8 +10,6 @@ public class State_Behavior {
   }
 
   public static String call_getEnumNodeName_6463807888000048393(SNode thisNode) {
-    System.out.println(thisNode);
-    System.out.println(SPropertyOperations.getString(thisNode, "name"));
     return SPropertyOperations.getString(thisNode, "name");
   }
 }
