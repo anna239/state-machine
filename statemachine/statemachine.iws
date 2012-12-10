@@ -29,15 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="401516de-a581-4ec7-b093-a3327ed53aad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/classes_gen/statemachine/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/constraints/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generated" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/SimpleMachine.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Enu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Ma.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen.caches/statemachine/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/trace.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/statemachine/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/State_Behavior.java" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/behavior/State_Behavior.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/generator/template/main/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/classes_gen/statemachine/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/classes_gen/statemachine/sandbox/sandbox/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/dependencies" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/generated" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen.caches/statemachine/sandbox/sandbox/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/trace.info" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/generator/template/statemachine/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/statemachine/generator/template/statemachine/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/statemachine/source_gen/statemachine/generator/template/main/QueriesGenerated.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/models/statemachine/sandbox/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/models/statemachine/sandbox/sandbox.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Main.java" afterPath="$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statemachine.iws" afterPath="$PROJECT_DIR$/statemachine.iws" />
     </list>
     <ignored path="statemachine.iws" />
@@ -87,40 +91,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SequenceOperation" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/SequenceOperation">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="60">
-                <selectionStack />
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-              <node nodeId="1224668254828" modelId="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StateMachineOperation" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://statemachine.structure/StateMachineOperation">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <folded />
-              </inspectorMemento>
-              <node nodeId="1137392448294686097" modelId="r:79bc8d31-47a9-4116-8145-b23268aa7dd0(statemachine.constraints)" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IsInStateOperation" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://statemachine.structure/IsInStateOperation">
           <provider selected="true" editor-type-id="MPSFileEditor">
@@ -148,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNextTokenOperation" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AddNextTokenOperation" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://statemachine.structure/AddNextTokenOperation">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -162,6 +132,56 @@
               </inspectorMemento>
               <node nodeId="6463807888000039023" modelId="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleMachine" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://statemachine.sandbox.sandbox/SimpleMachine">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="111" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node model="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)" id="1137392448294739990" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transition" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://statemachine.structure/Transition">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="129">
+                <selectionStack />
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="2903037320963944506" modelId="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s.sandbox.sandbox/text" pinned="false" current="false" current-in-tab="false">
+        <entry file="previewGenerated text for statemachine.sandbox.sandbox">
+          <provider selected="true" editor-type-id="GeneratedTextPreview">
+            <state />
           </provider>
         </entry>
       </file>
@@ -204,12 +224,12 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="2953633839503922757" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" />
+              <node nodeId="2903037320963995770" modelId="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main" pinned="false" current="true" current-in-tab="true">
         <entry file="mps://statemachine.sandbox.sandbox/Main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -218,10 +238,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="215" />
+                    <property name="caretX" value="351" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                      <node model="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)" id="7490299935948563286" />
+                      <node model="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)" id="1137392448294739634" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -232,6 +252,30 @@
                 <folded />
               </inspectorMemento>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StateMachine" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://statemachine.structure/StateMachine">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="190">
+                <selectionStack />
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="6463807888000038938" modelId="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleMachine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/SimpleMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="14" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0" />
           </provider>
         </entry>
       </file>
@@ -387,6 +431,62 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine#6463807888000038823">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine#6463807888000038823">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine#6463807888000038823">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine#6463807888000038823">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="transition">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="statemachine">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="statemachine.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -453,7 +553,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit Tests.Tests in 'statemachine'">
+  <component name="RunManager" selected="Java Application.Class Main">
     <configuration default="false" name="Tests in 'statemachine'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
       <MyState>
         <option name="myModel" />
@@ -495,6 +595,56 @@
       <RunnerSettings RunnerId="Default Runner" />
       <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
+    </configuration>
+    <configuration default="false" name="Class Main" type="Java Application" factoryName="Java" temporary="true">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" value="2953633839503720477" />
+          <option name="myModelId" value="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <RunnerSettings RunnerId="Default Runner" />
+      <ConfigurationWrapper RunnerId="Default Runner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Application" factoryName="Java">
+      <MyState />
+      <myNode>
+        <MyState>
+          <option name="myNodeId" />
+          <option name="myModelId" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <method>
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
       <MyState>
@@ -539,8 +689,9 @@
         <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
       </method>
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit Tests.Tests in 'statemachine'" />
+      <item index="1" class="java.lang.String" itemvalue="Java Application.Class Main" />
     </list>
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -598,14 +749,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="19" width="1386" height="759" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32809612" sideWeight="0.4886678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32520324" sideWeight="0.47356665" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32520324" sideWeight="0.47356665" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependendies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.4944155" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32532346" sideWeight="0.5925926" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203252" sideWeight="0.41921073" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994455" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
@@ -615,17 +766,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.271035" sideWeight="0.67479676" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.271035" sideWeight="0.67154473" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.4973939" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.249309" sideWeight="0.6719039" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32682925" sideWeight="0.49069247" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32520324" sideWeight="0.52122116" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284553" sideWeight="0.4973939" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203252" sideWeight="0.51005214" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3203252" sideWeight="0.48548028" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -853,7 +1004,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix sm operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused print statements" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -872,316 +1023,7 @@
     <MESSAGE value="fixed clodure generaton" />
     <MESSAGE value="fix generation of empy state" />
     <MESSAGE value="fix sm operations" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solutions/statemachine.sandbox/source_gen/statemachine/sandbox/sandbox/Ma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/Transition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="75" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
-                  <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="2953633839503922789" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="2953633839503922789" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/TransitionCondition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="75" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
-                  <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="3047195635420720841" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="3047195635420720841" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/StateMachineCreator">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="2953633839503992515" modelId="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/StateMachineType">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="6463807888000055987" modelId="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/StateMachine">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="175">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="75" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
-                  <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="2953633839503710142" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="2953633839503710142" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/ClojureTransitionCondition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="2903037320963995832" modelId="r:4577458c-0d55-413c-9350-7c61cdfc82fa(statemachine.generator.template.main@generator)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/EqualsTransitionCondition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="75" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
-                  <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="3047195635420720844" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="3047195635420720844" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.sandbox.sandbox/Ma">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="47" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_transition" cellNumber="0" isInList="false">
-                  <node model="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)" id="7490299935948564094" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.collections.structure/SequenceOperation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="60">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="1224668254828" modelId="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/StateMachineOperation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="1137392448294686097" modelId="r:79bc8d31-47a9-4116-8145-b23268aa7dd0(statemachine.constraints)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/IsInStateOperation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="168" />
-                <property name="caretX" value="483" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" id="6463807888000008983" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="6463807888000008983" modelId="r:5222ac38-d6a1-47eb-bfc7-18a78d847c45(statemachine.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.sandbox.sandbox/Main">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="215" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                  <node model="r:dbd3ede3-8ee3-4b4d-b3e8-9714ba5d2719(statemachine.sandbox.sandbox)" id="7490299935948563286" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://jetbrains.mps.baseLanguage.logging.structure/PrintStatement">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="80" />
-                <property name="caretX" value="155" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
-                  <node model="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" id="1168401810208" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="1168401810208" modelId="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/State">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="2953633839503922757" modelId="r:5c46a855-b25a-469b-b219-d40fb213defe(statemachine.behavior)" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://statemachine.structure/AddNextTokenOperation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <folded />
-          </inspectorMemento>
-          <node nodeId="6463807888000039023" modelId="r:e8632312-5c38-45e4-b922-b0dc11caad25(statemachine.typesystem)" />
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="remove unused print statements" />
   </component>
 </project>
 

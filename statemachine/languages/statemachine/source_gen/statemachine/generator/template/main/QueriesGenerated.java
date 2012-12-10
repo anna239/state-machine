@@ -53,7 +53,7 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static boolean ifMacro_Condition_871947940434912754(final IOperationContext operationContext, final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_1137392448294771859(final IOperationContext operationContext, final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "transition", true)).isNotEmpty();
   }
 
@@ -85,6 +85,10 @@ public class QueriesGenerated {
     return TransitionCondition_Behavior.call_getExpression_871947940434888344(SLinkOperations.getTarget(_context.getNode(), "expected", true));
   }
 
+  public static SNode sourceNodeQuery_1137392448294772676(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "transitToState", false);
+  }
+
   public static SNode sourceNodeQuery_871947940434888481(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "expected", true);
   }
@@ -97,7 +101,7 @@ public class QueriesGenerated {
     return StateMachine_Behavior.call_getAllStates_2903037320963927292(_context.getNode());
   }
 
-  public static Iterable sourceNodesQuery_2903037320963995817(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_1137392448294771780(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "transition", true);
   }
 }
