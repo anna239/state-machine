@@ -15,6 +15,11 @@ public class Main {
     for (int i = 0; i < inputString.length(); i++) {
       sm.addNextToken(inputString.substring(i, i + 1));
     }
+    sm.isInFinalState();
     System.out.println(sm.isInState(MachineState.onlyB));
+  }
+
+  public static boolean isOk(String s) {
+    return true;
   }
 }

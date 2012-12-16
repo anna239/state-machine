@@ -36,4 +36,8 @@ public class StateMachine_Behavior {
   public static String getNextTokenName_2903037320963916761() {
     return "addNextToken";
   }
+
+  public static String getIsInFinalStateName_4332044356532254245() {
+    return "isInFinalState";
+  }
 }

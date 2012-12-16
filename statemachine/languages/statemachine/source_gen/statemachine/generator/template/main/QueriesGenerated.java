@@ -16,6 +16,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import statemachine.behavior.TransitionCondition_Behavior;
+import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
@@ -25,6 +26,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_6463807888000048515(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return State_Behavior.call_getEnumNodeName_6463807888000048393(_context.getNode());
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4332044356532225235(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), "final");
   }
 
   public static Object referenceMacro_GetReferent_6463807888000056014(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -51,6 +56,14 @@ public class QueriesGenerated {
   public static Object referenceMacro_GetReferent_8827301838529893780(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     String result = State_Behavior.call_getEnumNodeName_6463807888000048393(_context.getNode());
     return result;
+  }
+
+  public static Object referenceMacro_GetReferent_4332044356532254253(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return StateMachine_Behavior.getIsInFinalStateName_4332044356532254245();
+  }
+
+  public static boolean ifMacro_Condition_4332044356532190507(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "do", true) != null);
   }
 
   public static boolean ifMacro_Condition_1137392448294771859(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -91,6 +104,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_871947940434888481(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "expected", true);
+  }
+
+  public static SNode sourceNodeQuery_4332044356532161012(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "do", true));
   }
 
   public static Iterable sourceNodesQuery_2903037320963925357(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

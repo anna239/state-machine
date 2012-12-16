@@ -16,6 +16,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
     <classNode dependClassName="statemachine.behavior.StateMachine_Behavior" />
     <classNode dependClassName="statemachine.behavior.State_Behavior" />
     <classNode dependClassName="statemachine.behavior.TransitionCondition_Behavior" />

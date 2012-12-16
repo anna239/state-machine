@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-9llcsupy6kx4yzqbuy9c6cbcz0qs259">
+<dependencies version="2" modelHash="7cvrts0mqcwlxvl719ldfsgrjwvnspa">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -21,6 +21,7 @@
     <dep root="3047195635420720841" />
     <dep root="3047195635420720844" />
     <dep root="3047195635420727304" />
+    <dep root="4332044356532234645" />
     <dep root="6463807888000008983" />
     <dep root="6463807888000039002" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -37,13 +38,13 @@
     <file name="Statemachine_Language.java" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="2953633839503710142" name="StateMachine" hash="4qi0tkwjuxh2m4ui5k6z2y0obeiqvnz">
+  <source id="2953633839503710142" name="StateMachine" hash="dqedph0k6lwytfkz9w2kky7hzjvseha">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2953633839503872521" name="State" hash="-66sqyc2e3k84c9tqbiinkq0x8wfip62">
+  <source id="2953633839503872521" name="State" hash="-ef7u3ve9amm6bq1de7xnr9e8lplevpt">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2953633839503922789" name="Transition" hash="easdk02a2yaynotqswi268c3g693i0p">
+  <source id="2953633839503922789" name="Transition" hash="eguzdnomerwl36jew1rmu8nlt54ts1b">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="2953633839503960890" name="StateMachineType" hash="-7gxe8k6y2vhzij366gxbov1wecy0uk9">
@@ -68,6 +69,9 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1137392448294686093" name="StateMachineOperation" hash="2o712489w1po0o2vqybuzhorvse6uhd">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4332044356532234645" name="IsInFinalStateOperation" hash="e8l14pfn116lnsxp8stgmagsfa1bkhi">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

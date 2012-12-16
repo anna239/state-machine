@@ -14,6 +14,7 @@
     <classNode dependClassName="statemachine.behavior.AddNextTokenOperation_BehaviorDescriptor" />
     <classNode dependClassName="statemachine.behavior.ClojureTransitionCondition_BehaviorDescriptor" />
     <classNode dependClassName="statemachine.behavior.EqualsTransitionCondition_BehaviorDescriptor" />
+    <classNode dependClassName="statemachine.behavior.IsInFinalStateOperation_BehaviorDescriptor" />
     <classNode dependClassName="statemachine.behavior.IsInStateOperation_BehaviorDescriptor" />
     <classNode dependClassName="statemachine.behavior.StateMachineCreator_BehaviorDescriptor" />
     <classNode dependClassName="statemachine.behavior.StateMachineType_BehaviorDescriptor" />
@@ -46,6 +47,12 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="statemachine.behavior.EqualsTransitionCondition_Behavior" />
     <classNode dependClassName="statemachine.behavior.TransitionCondition_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="statemachine.behavior.IsInFinalStateOperation_BehaviorDescriptor" file="IsInFinalStateOperation_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="statemachine.behavior.StateMachineOperation_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="statemachine.behavior.IsInStateOperation_BehaviorDescriptor" file="IsInStateOperation_BehaviorDescriptor.java">

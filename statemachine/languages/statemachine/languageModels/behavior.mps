@@ -146,6 +146,18 @@
         </node>
       </node>
     </node>
+    <node role="staticMethod" roleId="1i04.1225194240806" type="1i04.StaticConceptMethodDeclaration" typeId="1i04.1225194588610" id="4332044356532254245">
+      <property name="name" nameId="tpck.1169194664001" value="getIsInFinalStateName" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4332044356532254246" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.StringType" typeId="tpee.1225271177708" id="4332044356532254249" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="4332044356532254248">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4332044356532254250">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4332044356532254251">
+            <property name="value" nameId="tpee.1070475926801" value="isInFinalState" />
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
   <root id="2953633839503922757">
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="2953633839503922758">
