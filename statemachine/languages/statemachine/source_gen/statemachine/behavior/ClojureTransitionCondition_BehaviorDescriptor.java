@@ -8,12 +8,12 @@ public class ClojureTransitionCondition_BehaviorDescriptor extends TransitionCon
   public ClojureTransitionCondition_BehaviorDescriptor() {
   }
 
-  public SNode virtual_getExpression_871947940434888344(SNode thisNode) {
-    return ClojureTransitionCondition_Behavior.virtual_getExpression_871947940434888344(thisNode);
-  }
-
   public SNode virtual_getConditionType_871947940434887993(SNode thisNode) {
     return ClojureTransitionCondition_Behavior.virtual_getConditionType_871947940434887993(thisNode);
+  }
+
+  public SNode virtual_getExpression_871947940434888344(SNode thisNode) {
+    return ClojureTransitionCondition_Behavior.virtual_getExpression_871947940434888344(thisNode);
   }
 
   @Override

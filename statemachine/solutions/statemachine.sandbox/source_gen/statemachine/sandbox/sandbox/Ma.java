@@ -4,18 +4,18 @@ package statemachine.sandbox.sandbox;
 
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
-public class SimpleMachine {
-  private SimpleMachine.MachineState currentState;
+public class Ma {
+  private Ma.MachineState currentState;
 
-  public SimpleMachine() {
-    currentState = statemachine.sandbox.sandbox.SimpleMachine.MachineState.onlyA;
+  public Ma() {
+    currentState = statemachine.sandbox.sandbox.Ma.MachineState.onlyA;
   }
 
   public void addNextToken(String token) {
     currentState = getNextState(token);
   }
 
-  private SimpleMachine.MachineState getNextState(String token) {
+  private Ma.MachineState getNextState(String token) {
     switch (currentState) {
       case aOrB:
         {
@@ -25,7 +25,7 @@ public class SimpleMachine {
             }
           };
           if (condition.invoke(token)) {
-            return statemachine.sandbox.sandbox.SimpleMachine.MachineState.aOrB;
+            return statemachine.sandbox.sandbox.Ma.MachineState.aOrB;
           }
         }
         {
@@ -33,10 +33,14 @@ public class SimpleMachine {
           if (token.equals(condition)) {
             
             {
-              _FunctionTypes._void_P1_E0<? super String> onChange = null;
+              _FunctionTypes._void_P1_E0<? super String> onChange = new _FunctionTypes._void_P1_E0<String>() {
+                public void invoke(String it) {
+                  System.out.println("do anything!");
+                }
+              };
               onChange.invoke(token);
             };
-            return statemachine.sandbox.sandbox.SimpleMachine.MachineState.onlyB;
+            return statemachine.sandbox.sandbox.Ma.MachineState.onlyB;
           }
         }
         break;
@@ -44,7 +48,7 @@ public class SimpleMachine {
         {
           String condition = "b";
           if (token.equals(condition)) {
-            return statemachine.sandbox.sandbox.SimpleMachine.MachineState.onlyB;
+            return statemachine.sandbox.sandbox.Ma.MachineState.onlyB;
           }
         }
         break;
@@ -52,7 +56,16 @@ public class SimpleMachine {
         {
           String condition = "a";
           if (token.equals(condition)) {
-            return statemachine.sandbox.sandbox.SimpleMachine.MachineState.aOrB;
+            
+            {
+              _FunctionTypes._void_P1_E0<? super String> onChange = new _FunctionTypes._void_P1_E0<String>() {
+                public void invoke(String it) {
+                  System.out.println(it);
+                }
+              };
+              onChange.invoke(token);
+            };
+            return statemachine.sandbox.sandbox.Ma.MachineState.aOrB;
           }
         }
         break;
@@ -61,7 +74,7 @@ public class SimpleMachine {
     throw new IllegalArgumentException("bad token: " + token);
   }
 
-  public boolean isInState(SimpleMachine.MachineState state) {
+  public boolean isInState(Ma.MachineState state) {
     return currentState == state;
   }
 

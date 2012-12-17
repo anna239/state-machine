@@ -110,6 +110,10 @@ public class QueriesGenerated {
     return TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "do", true));
   }
 
+  public static SNode sourceNodeQuery_8272868549379783661(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "do", true);
+  }
+
   public static Iterable sourceNodesQuery_2903037320963925357(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return StateMachine_Behavior.call_getAllStates_2903037320963927292(_context.getNode());
   }
